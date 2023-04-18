@@ -87,6 +87,7 @@ class MainActivity : AppCompatActivity() {
                 for (x in array){
                     soma += x
                 }
+
                 mediaDb = soma / (array.size)
                 var mediaformat = (mediaDb * 100.0).roundToInt() / 100.0
                 dbRuido.collection("dadosSonoros")
